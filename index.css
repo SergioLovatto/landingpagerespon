@@ -1,40 +1,52 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    color: C1CAD6;
+    color: #C1CAD6;
     text-align: center;
     
 }
  main {
     background-color: 12355b;
-    height: 100vw;
+    height: 100vh;
     width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    font-size: x-large;
 } 
+main h2 {
+    padding: 5rem;
+    font-size: 5rem;    
+}
+
+main p {
+    font-size: 2rem;
+} 
+
+main h3 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
 
 .beneficios {
    
     width: 100%;
-    height: 90%;
+    height: 80%;
     display: flex;
     flex-direction: column; 
     justify-content: space-around; 
     align-items: center;
-    
     margin-top: 50px;
 }
 .beneficios img {
-  
-    width: 30%;
-    
-}
+    margin-top: 2rem; 
+    width: 50%;
+  }
 
 .beneficio1 {
     width: 50%;
-    
-}
+
+  }
 
 .beneficio2 {
     width: 50%;
@@ -43,3 +55,56 @@
 .beneficio3 {
     width: 50%;
 }
+
+section {
+    background-color: #37000A;
+    width: 100%;
+    height: 100vh;
+}
+
+section h2 {
+    padding: 5rem;
+    font-size: 5rem;
+}
+
+section p {
+    font-size: 2rem;
+} 
+
+section h3 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.trabajo {
+   
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;  
+    align-items: center;
+    /* margin-top: 30px; */
+}
+.trabajo img {
+    margin-top: 2rem;  
+    width: 30%; 
+ }
+
+.trabajo1 {
+    width: 50%;
+    height: 20%;
+  }
+  .trabajo2 {
+    width: 50%;
+    height: 20%;
+  }
+  .trabajo3 {
+    width: 50%;
+    height: 20%;
+  }
+  .trabajo4 {
+    width: 50%;
+    height: 20%;
+  }
+
