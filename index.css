@@ -12,19 +12,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    font-size: x-large;
+   
 } 
-main h2 {
-    padding: 5rem;
-    font-size: 5rem;    
+h2 {
+    padding: 1rem;
+    font-size: 2rem;    
 }
 
-main p {
-    font-size: 2rem;
+p {
+    font-size: 0.7rem;
 } 
 
-main h3 {
-    font-size: 3.5rem;
+h3 {
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -36,13 +36,14 @@ main h3 {
     flex-direction: column; 
     justify-content: space-around; 
     align-items: center;
-    margin-top: 50px;
+    margin-top: 0.5rem;
 }
-.beneficios img {
-    margin-top: 2rem; 
-    width: 50%;
-  }
 
+.beneficios img {
+    margin-top: 0.5rem; 
+    width: 30%;
+  }
+ 
 .beneficio1 {
     width: 50%;
 
@@ -54,7 +55,7 @@ main h3 {
 
 .beneficio3 {
     width: 50%;
-}
+} 
 
 section {
     background-color: #37000A;
@@ -62,19 +63,6 @@ section {
     height: 100vh;
 }
 
-section h2 {
-    padding: 5rem;
-    font-size: 5rem;
-}
-
-section p {
-    font-size: 2rem;
-} 
-
-section h3 {
-    font-size: 3.5rem;
-    font-weight: bold;
-}
 
 .trabajo {
    
@@ -84,11 +72,12 @@ section h3 {
     flex-direction: column; 
     justify-content: space-around;  
     align-items: center;
-    /* margin-top: 30px; */
+  
 }
+
 .trabajo img {
-    margin-top: 2rem;  
-    width: 30%; 
+    margin-top: 0.5rem;  
+    width: 25%; 
  }
 
 .trabajo1 {
@@ -108,3 +97,10 @@ section h3 {
     height: 20%;
   }
 
+ @media (max-widht: 1440px) and (min-widht: 1024px) {
+    p {
+        font-size: 2rem;
+    }
+        
+    }
+}
